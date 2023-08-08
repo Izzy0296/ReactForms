@@ -8,9 +8,20 @@ import { useState } from "react";
     const [password, setPassword] = useState("");
     const [error, setError] = useState(null);
     
+    
     async function handleSubmit(event){
         event.preventDefault();
         
+        
+if (username.length < 8) {
+    setError("Username must be at least 8 characters long");
+    return;
+
+      
+    
+    
+}
+  
 
 
         try {
