@@ -40,3 +40,27 @@
 .read-the-docs {
   color: #888;
 }
+
+body{
+  background-color: rgb(234, 225, 214);
+}
+
+button{
+  border-radius: 2px;
+  margin: 0.5em;
+
+}
+
+h2{
+  color: rgb(106, 144, 144);
+}
+
+label{
+  color: rgb(105, 120, 146);
+  font-size: 1.3em;
+}
+
+input{
+  border: 5em;
+  background-color: rgb(211, 213, 215);
+}
